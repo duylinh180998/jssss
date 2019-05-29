@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!--suppress ALL -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BT JS</title>
+    <link rel="stylesheet" href="Style/bootstrap.min.css">
+    <link rel="stylesheet" href="Style/style.css">
+</head>
+<body>
+<div class="container">
+    <div id="header">
+        <p id="a">
+            Thực Hành Toán Tử
+        </p>
+        <p id="ke"></p>
+    </div>
+    <div id="form">
+        <form >
+            <p id="show"></p>
+            <div class="form-group" >
+                <p>Nhập Số A :</p>
+                <input type="text" class="form-control" id="numbera" >
+            </div>
+            <div class="form-group">
+                <p>Nhập Số B :</p>
+                <input type="text" class="form-control" id="numberb">
+            </div>
+
+            <button onclick="cong()" type="button" class="btn btn-primary">a+b</button>
+            <button onclick="tru()" type="button" class="btn btn-secondary">a-b</button>
+            <button onclick="nhan()"  type="button" class="btn btn-success">a*b</button>
+            <button onclick="chia()"  type="button" class="btn btn-danger">a/b</button>
+            <button onclick="du()"  type="button" class="btn btn-warning">a%b</button>
+            <button onclick="congcong()"  type="button" class="btn btn-info">a++</button>
+            <button onclick="cong2()"  type="button" class="btn btn-info">++a</button>
+            <button onclick="trutru()" type="button" class="btn btn-info">a--</button>
+            <button onclick="tru2()"  type="button" class="btn btn-info">--a</button>
+            <br/><br/>
+            <button type="reset" class="btn btn-info">Reset Dữ Liệu</button>
+        </form>
+        <p id="KQ"></p>
+    </div>
+</div>
+</body>
+</html>
